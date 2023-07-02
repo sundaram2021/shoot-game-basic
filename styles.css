@@ -1,0 +1,46 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: none;
+}
+
+#canvas1 {
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    background-color: slategray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@media screen and (max-width: 600px) {
+    #canvas1 {
+        width: 100%;
+        height: 100%;
+        border: 5px solid black;
+        background-color: slategray;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 968px) {
+    #canvas1 {
+        width: 85%;
+        height: 85%;
+        border: 5px solid black;
+        background-color: slategray;
+    }
+}
+@media only screen and (min-width: 968px) {
+    #canvas1 {
+        width: 75%;
+        height: 75%;
+        border: 5px solid black;
+        background-color: slategray;
+    }
+}
+
